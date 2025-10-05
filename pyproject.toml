@@ -1,0 +1,19 @@
+[project]
+name = "goit-ds-hw-02"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Tania526-sudo",email = "starovoyt.tania@lll.kpi.ua"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "goit_ds_hw_02", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
