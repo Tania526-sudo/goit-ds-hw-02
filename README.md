@@ -1,0 +1,1 @@
+SQLite task manager: DB schema, Faker seeding, full SQL queries, and Python CLI
