@@ -124,7 +124,7 @@ def cmd_users_without_tasks(conn: sqlite3.Connection, csv_path: str | None) -> N
 # ---- main ----
 
 def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(description="Task Manager CLI (alternative)")
+    p = argparse.ArgumentParser(description="Task Manager CLI")
     p.add_argument("--db", default=DEFAULT_DB, help=f"Path to SQLite DB (default: {DEFAULT_DB})")
 
     sub = p.add_subparsers(dest="cmd", required=True)
